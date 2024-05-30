@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz - Web Design & Development Course</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: rgb(46, 42, 36);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        nav a {
+            color: orange;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .container h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .container p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .login-form {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .login-form input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background: orange;
+            border: none;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .login-form a {
+            color: orange;
+            text-decoration: none;
+        }
+        .navigations {
+    display: flex;
+    gap: 1rem;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+.navigations a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+    </style>
+</head>
+<body>
+    <div class="navigations">
+        <a href="./index.html">Class Activity 1</a>
+        <a href="./class.html">Class Activity 2</a>
+        <a href="./class2.html">Class Activity 3</a>
+        <a href="./class index.html">Class Activity 4</a>
+    </div>
+    <nav>
+        <div class="logo">PraRoz</div>
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#service">SERVICE</a>
+            <a href="#design">DESIGN</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Type to Search">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Web Design & Development Course</h1>
+        <p>Web Design is a specialization of the design stream. They also use HTML, CSS, WYSIWYG editing software, markup validators etc., to create design elements.</p>
+        <button>JOIN US</button>
+    </div>
+    <div class="login-form">
+        <h2>Login Here</h2>
+        <input type="email" placeholder="Enter Email Here">
+        <input type="password" placeholder="Enter Password Here">
+        <button>Login</button>
+        <p>Don't have an account? <a href="#">Sign up here</a></p>
+    </div>
+</body>
+</html>

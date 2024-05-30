@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roysha - Transfer Money</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav .login-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero {
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+            text-align: left;
+            padding: 0 40px;
+        }
+        .hero .text-section {
+            max-width: 500px;
+        }
+        .hero .text-section h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero .text-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero .text-section .watch-video-btn {
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .send-money-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+        .send-money-form h2 {
+            margin-bottom: 20px;
+        }
+        .send-money-form input,
+        .send-money-form select,
+        .send-money-form button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .send-money-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .send-money-form small {
+            display: block;
+            margin-top: 10px;
+            color: #666;
+        }
+        .navigations {
+    display: flex;
+    gap: 1rem;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+.navigations a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+    </style>
+</head>
+<body style="background-color: rgb(107, 107, 197);">
+    <div class="navigations">
+        <a href="./index.html">Class Activity 1</a>
+        <a href="./class.html">Class Activity 2</a>
+        <a href="./class2.html">Class Activity 3</a>
+        <a href="./class index.html">Class Activity 4</a>
+    </div>
+    <nav>
+        <div class="logo">Roysha</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#send-money">Send Money</a>
+            <a href="#receive-money">Receive Money</a>
+            <a href="#pages">Pages</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="#login" class="login-btn">Login</a>
+    </nav>
+    <div class="hero">
+        <div class="text-section">
+            <h1>Transfer Money Across World In Real Time With No Charge</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#video" class="watch-video-btn">Watch Video</a>
+        </div>
+        <div class="send-money-form">
+            <h2>Send Money</h2>
+            <input type="text" placeholder="Send Amount" value="$1000.00">
+            <select>
+                <option>Select Country</option>
+            </select>
+            <select>
+                <option>Choose Delivery Type</option>
+            </select>
+            <button>Continue Transition</button>
+            <small>By clicking continue, I am agree with <a href="#">Terms & Policy</a></small>
+        </div>
+    </div>
+</body>
+</html>
